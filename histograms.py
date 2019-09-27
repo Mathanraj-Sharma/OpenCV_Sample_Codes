@@ -61,5 +61,5 @@ def rgbHist(image):
 
 
 if __name__ == '__main__':
-	#grayScaleHist(image)
+	grayScaleHist(image)
 	rgbHist(image)
