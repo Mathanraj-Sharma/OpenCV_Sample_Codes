@@ -18,7 +18,7 @@ ave_blur = cv2.blur(image, (5,5))
 
 # blurred image with Gaussian Kernal or Weighted Kernal
 # the second argument is Kernal Size and third argument is Standard Diviation - 0 means it will std will autamatically calculated 
-gau_blur = cv2.GaussianBlur(image, (5,5), 0)
+gau_blur = cv2.GaussianBlur(image, (45,45), 0)
 
 
 # blurred image with Median Kernal
